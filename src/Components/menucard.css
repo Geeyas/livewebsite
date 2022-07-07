@@ -1,0 +1,42 @@
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding-left: 30%;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+    margin-left: 12px;
+    font-size: 25px;
+    color: black;
+    height: auto;
+    width: auto;
+}
+
+li button {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: none;
+    box-shadow: 0 0 5px black;
+}
+
+li button:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li button.active {
+    color: black;
+    background-color: grey;
+}
